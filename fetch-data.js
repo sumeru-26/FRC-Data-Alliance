@@ -1,6 +1,6 @@
 import { TBA_KEY } from "./config";
 
-export async function get_data() {
+async function get_data() {
     //just a test url
     const url = "https://www.thebluealliance.com/api/v3/status";
     const request = new Request(url, {
